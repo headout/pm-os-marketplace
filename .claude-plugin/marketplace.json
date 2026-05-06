@@ -1,0 +1,23 @@
+{
+  "name": "headout-pm-os-marketplace",
+  "owner": {
+    "name": "Headout Product Team",
+    "email": "atish@headout.com"
+  },
+  "metadata": {
+    "description": "The shared plugin marketplace for the Headout product team. Hosts the headout-pm-os plugin (9 PM specialist skills + the team's durable context — CLAUDE.md, org structure, pod scopes, glossary, project history)."
+  },
+  "plugins": [
+    {
+      "name": "headout-pm-os",
+      "source": "./plugins/headout-pm-os",
+      "version": "0.2.1",
+      "description": "Headout PM OS — the shared operating system for the Headout product team. 9 specialist PM skills (problem framing → ideation → data analysis → prototyping → spec writing → L1 review → experiment design → implementation planning) plus the team's durable context (CLAUDE.md, org structure, pod scopes, glossary, project history) bundled in.",
+      "author": {
+        "name": "Atish Arora",
+        "email": "atish@headout.com"
+      },
+      "tags": ["product-management", "headout", "pm-os", "prd", "spec", "experiment", "ideation"]
+    }
+  ]
+}

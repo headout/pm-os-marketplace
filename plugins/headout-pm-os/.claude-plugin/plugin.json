@@ -1,0 +1,10 @@
+{
+  "name": "headout-pm-os",
+  "version": "0.2.1",
+  "description": "Headout PM OS — the shared operating system for the Headout product team. Bundles 9 specialist PM skills (problem framing → ideation → data analysis → prototyping → spec writing → L1 review → experiment design → implementation planning) plus the team's durable context (CLAUDE.md, org structure, pod scopes, glossary, project history). Skills load context via ${CLAUDE_PLUGIN_ROOT} so the bundled CLAUDE.md and memory/ files resolve correctly regardless of the user's working directory.",
+  "author": {
+    "name": "Atish Arora",
+    "email": "atish@headout.com"
+  },
+  "keywords": ["product-management", "headout", "pm-os", "prd", "spec", "experiment", "ideation", "problem-framing"]
+}
