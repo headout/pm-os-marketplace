@@ -24,7 +24,7 @@ The shared operating system for the **Headout product team**. Bundles 9 speciali
 - `memory/context/pods.md` — full pod-by-pod detail (PMs, EMs, designers, data spokes)
 - `memory/people/pm-team.md` — PM team profiles
 - `memory/people/key-stakeholders.md` — cross-functional partner profiles (eng, design, data)
-- `memory/projects/active-q1-2026.md` — current quarter's active project tracks
+- `memory/projects/active-pipeline.md` — current quarter's active project tracks (file is generic-named, refreshed each quarter)
 - `memory/projects/historical-pipeline.md` — 5-quarter project history & outcomes
 - `memory/glossary.md` — full Headout terminology
 
@@ -43,6 +43,7 @@ Enter at any stage depending on where you are.
 
 ## Versioning
 
+- **0.3.0** — Q2'26 active pipeline. Q1'26 archived to `historical-pipeline.md` as a Q1 snapshot. The active-pipeline file is now generic-named (`active-pipeline.md`) so skills don't need a path update each quarter — just refresh the file's contents at quarter start.
 - **0.2.1** — Path resolution fix. All 9 skills now reference bundled context via `${CLAUDE_PLUGIN_ROOT}` so the CLAUDE.md and memory/ files load reliably for every installed user, not just relative to their working directory.
 - **0.2.0** — Team OS release. Bundled CLAUDE.md and memory/ context inside the plugin. Refreshed spec-writer to match the Headout PRD template.
 - **0.1.0** — Initial 9-skill release.

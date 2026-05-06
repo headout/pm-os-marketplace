@@ -40,7 +40,7 @@ Read in this order:
 2. `${CLAUDE_PLUGIN_ROOT}/memory/context/company.md` — strategy context, distribution channels, leadership
 3. `${CLAUDE_PLUGIN_ROOT}/memory/context/pods.md` — full pod-by-pod detail (PMs, EMs, designers, data spokes)
 4. `${CLAUDE_PLUGIN_ROOT}/memory/projects/historical-pipeline.md` — prior attempts at this problem area
-5. `${CLAUDE_PLUGIN_ROOT}/memory/projects/active-q1-2026.md` (or current quarter file) — informational, to flag overlap
+5. `${CLAUDE_PLUGIN_ROOT}/memory/projects/active-pipeline.md` (or current quarter file) — informational, to flag overlap
 6. Any **Problem Frame** doc provided
 7. Any **Data Insights** brief provided
 8. Any **Prototype / Journey Map** provided

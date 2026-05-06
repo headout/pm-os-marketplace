@@ -29,7 +29,7 @@ it needs to produce its best output, and that the PM is never left wondering "wh
 
 Always start here. Read:
 1. `${CLAUDE_PLUGIN_ROOT}/CLAUDE.md` — team, pods, active projects, strategy pillars, Atish's preferences
-2. `${CLAUDE_PLUGIN_ROOT}/memory/projects/active-q1-2026.md` — current pipeline (check for conflicts or related work)
+2. `${CLAUDE_PLUGIN_ROOT}/memory/projects/active-pipeline.md` — current pipeline (check for conflicts or related work)
 3. `${CLAUDE_PLUGIN_ROOT}/memory/projects/historical-pipeline.md` — prior attempts (check for relevant history)
 
 This context shapes everything — which pod this belongs to, whether this has been tried before,

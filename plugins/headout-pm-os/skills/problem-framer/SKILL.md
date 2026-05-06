@@ -159,7 +159,7 @@ Before writing the final frame, pause and challenge your own work:
 - Is the hypothesis actually falsifiable, or is it written so it can never be wrong?
 - Is the success metric specific enough that two people would agree on whether it was hit?
 - Is there a simpler version of this problem that achieves 80% of the value at 20% of the effort?
-- Does this conflict with anything in the current Q1'26 pipeline? (Check `${CLAUDE_PLUGIN_ROOT}/memory/projects/active-q1-2026.md`)
+- Does this conflict with anything in the current Q1'26 pipeline? (Check `${CLAUDE_PLUGIN_ROOT}/memory/projects/active-pipeline.md`)
 - Is there a prior attempt at this problem in the historical pipeline? What happened?
 
 If you find prior attempts, surface them explicitly — "Note: Headout tried [X] in Q3'25 and got [result].

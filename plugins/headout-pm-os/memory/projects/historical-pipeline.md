@@ -230,3 +230,107 @@ Recurring spillover reasons observed:
 | Aman Kalra | Reviews + HO/MB parity + Discovery | 3-4 tracks |
 | Raghav Nair | Guest Experience (departed Nov 2025) | All tracks now under Atish/Ravi/Dvija |
 | Aditya Kulkarni | Decision Center + Theatre + some S&C | 3-4 tracks Q1'26 |
+
+---
+
+# Q1'26 Snapshot
+*Source: Q1'26 active pipeline at quarter close (March 2026). Moved here at the start of Q2'26.*
+
+## Q1'26 Distribution — DRI: Devrat Singh
+
+### API Suite Improvement (Q1'26)
+| Milestone | Status | Conf | S/N | Target |
+|---|---|---|---|---|
+| Sandbox for Partners | Dev started | High | S | Mar 27 |
+| Seatmap booking support in APIs | Picked up | High | N | Mar 27 |
+| Update V2 APIs wrt V1 & B2C APIs | Dev started | High | N | Mar 13 |
+| Fix Pricing construct across APIs (net prices, HO SP) | Dev started | High | N | Mar 13 |
+| Location ENUM list ✅ | Live | High | N | Done Feb 6 |
+
+### Partner Dashboard & Retention (Q1'26)
+| Milestone | Status | Conf | S/N |
+|---|---|---|---|
+| Superset Migration for Partner Dashboard | Picked up | High | S |
+| Jira integration for Tech Support ✅ | Live | High | N |
+| Mintlify - Integration Assistant | Yet to start | Medium | N |
+| Revamp Partner Dashboard | Yet to start | High | S |
+| Reduce bookings data delay (1D → real-time) | Yet to start | High | S |
+
+### Revenue Share & Onboarding (Q1'26)
+| Milestone | Status | Conf | S/N |
+|---|---|---|---|
+| Revenue Share for Affiliates ✅ | Live | High | N |
+| Data logic correction for Price Payables | Dev started | High | N |
+| Partner Signup form enrichment + Clickdraft | Yet to start | Medium | N (FE bandwidth risk) |
+| Stop BE emails for partner signup | Yet to start | High | N |
+
+### Creator Program (Q1'26)
+| Milestone | Status | Conf |
+|---|---|---|
+| Experiment with monetary rewards via creator link | Dev started | High |
+| Fix Magiclink redirection logic ✅ | Live | High |
+| 1st set of Opportunities product changes ✅ | Live | High |
+
+## Q1'26 CMS — DRI: Amit / Swati (EM: Aakash)
+| Milestone | Status | Conf | S/N |
+|---|---|---|---|
+| Prismic → Payload M1 - 15 A1 domains | Dev started | High | N |
+| Prismic → Payload M2 - Entertainment MBs | Picked up | High | N |
+| Shoulder pages on MBs (ExperienceOS support) | Picked up | High | N |
+| Dex GTM - Pre-trip email template design in Prismic | Solutioning done | High | N |
+| LFC on Headout - Phase 1 Category pages | PR Reviews & QA | High | S |
+| LFC Phase 2 - Shoulder pages | Yet to start | Low | N |
+
+## Q1'26 Discovery — DRI: Amit (EM: Hitesh)
+- TOFU MB City Pages: M1 in data analysis; M2-M3 not started
+- Automated Rankings & Semantic Embeddings: M1 in data analysis; M2 (auto-tagging) shipped; M3-M4 not started
+- Other: Freebies/Guidebooks (yet to start), Search-Algolia (picked up by Aman K), MB Multi-Variant Combos (yet to start), Accessibility M2 (dev), Dex GTM UX experiment (yet to start)
+- Repeats on Apps: M1 wishlist + UX experiments + segment focus (all not started)
+
+## Q1'26 Experience — DRI: Amit / Aman K (EM: Ketan)
+- CVR: Local pricing M1 (QA), Social proof M1 ✅ + M2 (picked up), Google TTD M1-M2 (yet to start), Reviews authenticity (QA), Reviews cold start (yet to start), Dex GTM feedback (yet to start), Browser lang M1-M2 (dev), Scorpio→Payload sync (picked up), TikTok (deprio), Google Events (yet to start, low)
+- Repeats on Web M1-M4: solutioning done → not started
+
+## Q1'26 S&C — DRI: Ekansh (EM: Tarik / Aman Jagga)
+- BNPL Further: M1 cancellations reduction (picked up), M2 non-cancellable (yet to start), M3 2-step FF/PP (yet to start)
+- Conversion Boosters: Free Cancellation extension (yet to start), View From Seats top 20 LTT (picked up), Scarcity M1 ✅ (live Jan 7), Scarcity M2 (yet to start), Price urgency (yet to start), Smart Pickups M2 (dev) + booking-without-pickup (picked up), Combos as variants (yet to start), Combos flow improvement (yet to start), Broadway flow (yet to start, low impact), TTV upsell/cross-sell (yet to start), Reschedule eval (yet to start, low)
+- Post-Purchase Discount Logic: M1-M3 not started
+- Dex GTM: M1 CVR (picked up), M2 downloads (yet to start), M3 feedback (yet to start)
+
+## Q1'26 Payments — DRI: Satyakin (EM: Himanshi)
+- Klarna (yet to start, high), Phone-currency M2 1% markup (picked up), Checkout Flows A/B (picked up), Payment method ranking (yet to start), Riskified extension (yet to start, low)
+- Deprioritised: PayPal Pay Later, Revolut Pay on App, PAN card CVR experiment, Pincode CVR experiment
+
+## Q1'26 Guest Experience — DRI: Ravi (de facto post-Raghav)
+- Communication Relay (email infra dev), Comm Relay chat UX (yet to start), Bulk SP notifications (yet to start, low)
+- Secure Tickets (yet to start), Double bookings M1 (QA), API booking cancellation losses M2 (yet to start), Recon System (picked up), Apple Wallet (QA — DRI Tarik)
+- BMS revamp + Zendesk TAG dependency (yet to start, medium)
+
+## Q1'26 SP Experience — DRI: Neyanta
+- 360 on Hub M1 (dev) + M2 (picked up) + M3 (yet to start)
+- Edit RI changes M1 (dev), AI listing (yet to start), Auto qualification (picked up, low conf)
+- Schedule M1 (QA), M2 inventory (yet to start), M3 fees (yet to start, low)
+- Offers M2 (QA) + M3 SP bulk (dev) + M4 HO markup (QA, low conf)
+
+## Q1'26 Listings — DRI: Ravi / Aditya / Yuvraj
+- 360 scale to 12 RMS (dev), Multi-variant (picked up), Auto booking testing (picked up)
+- Media Automation (Photopea pipeline) — Edit workflow (dev), Search/recommend (yet to start, low)
+- Columbus M1 (dev) + M2 inventory/price (yet to start)
+- No platform fee on Headout (yet to start), Decision Center M1 (picked up) + M2 (yet to start), Strict allotment edge cases (yet to start)
+
+## Q1'26 Managed Supply — DRI: Neel
+- ExperienceOS M1 (dev), M2 (yet to start)
+
+## Q1'26 Connect / Integrations — DRI: Shriyan
+- New pod created in Q1'26; details were pending at quarter close.
+
+## Q1'26 Dex GTM — Cross-pod (Ekansh + Atish + Dvija)
+- Q1 focus: CVR experiments on MB LP and select page; Increase Dex downloads from variant buyers; Collect post-experience feedback; Pre-trip email comms (CMS); Feedback UX (Experience)
+
+## Q1'26 At-Risk / Spillover Highlights at Quarter Close
+- Distribution: Partner Signup form (FE bandwidth), Mintlify (medium conf), Revamp Dashboard (yet to start)
+- CMS: LFC Phase 2 (low conf)
+- Discovery: TOFU M2-M3, Repeats wishlist + segment focus (yet to start)
+- S&C: BNPL M2-M3 (medium conf), Price urgency (after availability scarcity)
+- Payments: PPL deprio, Revolut Pay App deprio, several CVR experiments deprio
+- Listings: No-fee engine, Strict allotment (not started)

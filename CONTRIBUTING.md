@@ -39,7 +39,7 @@ When a PM joins/leaves, a pod's scope shifts, or reporting lines change:
 
 ### Update active quarter projects
 
-1. At quarter start, copy `memory/projects/active-q1-2026.md` → `active-q2-2026.md`, refresh contents
+1. At quarter start, refresh `memory/projects/active-pipeline.md` with the new quarter's tracks (move outgoing entries into `historical-pipeline.md` as a snapshot)
 2. Move outgoing entries into `memory/projects/historical-pipeline.md`
 3. Same version bump + push flow as above
 

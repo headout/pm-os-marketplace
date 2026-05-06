@@ -87,7 +87,7 @@ This is the most common failure mode. Ask: has the PM thought through the full s
 - [ ] Empty state is defined (what happens when there's no data to show)
 - [ ] Error state is defined (API failure, timeout, unavailable data)
 - [ ] At least one boundary condition is named (min/max values, single-item edge case)
-- [ ] Interaction with in-flight features is acknowledged (check active-q1-2026.md for overlaps)
+- [ ] Interaction with in-flight features is acknowledged (check active-pipeline.md for overlaps)
 
 ### 2d. Success Metrics
 - [ ] A primary metric is named with a specific quantified target (not directional)

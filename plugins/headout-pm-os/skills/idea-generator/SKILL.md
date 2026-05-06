@@ -34,7 +34,7 @@ Before anything else, read:
 - `${CLAUDE_PLUGIN_ROOT}/CLAUDE.md` — team, pods, active projects, Atish's preferences, platform nuances
 - `${CLAUDE_PLUGIN_ROOT}/memory/context/company.md` — 2026 strategy, business model, NSM, strategic pillars
 - `${CLAUDE_PLUGIN_ROOT}/memory/projects/historical-pipeline.md` — what's been tried; this is critical; read it fully
-- `${CLAUDE_PLUGIN_ROOT}/memory/projects/active-q1-2026.md` — what's currently in flight that could intersect
+- `${CLAUDE_PLUGIN_ROOT}/memory/projects/active-pipeline.md` — what's currently in flight that could intersect
 
 If a Problem Frame doc exists for this problem, read it. The hypothesis, anti-goals, and
 Directional Options in the frame are your starting point — you're deepening them, not

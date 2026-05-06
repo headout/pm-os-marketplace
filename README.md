@@ -44,7 +44,7 @@ That's it. You'll have all 9 PM skills plus the bundled team context (CLAUDE.md 
 - `memory/context/pods.md` — full pod-by-pod detail (PMs, EMs, designers, data spokes)
 - `memory/people/pm-team.md` — PM team profiles
 - `memory/people/key-stakeholders.md` — cross-functional partner profiles (eng, design, data)
-- `memory/projects/active-q1-2026.md` — current quarter's active project tracks
+- `memory/projects/active-pipeline.md` — current quarter's active project tracks (file is generic-named, refreshed each quarter)
 - `memory/projects/historical-pipeline.md` — 5-quarter project history & outcomes
 - `memory/glossary.md` — full Headout terminology
 
@@ -70,6 +70,15 @@ When the plugin updates (new skill, refreshed CLAUDE.md, updated team roster, ne
 ```
 
 …or just accept the prompt when it appears. No need to reinstall.
+
+---
+
+## Versioning
+
+- **0.3.0** — Q2'26 active pipeline. Q1'26 archived to historical. Active file renamed `active-pipeline.md` (generic, refreshed each quarter — no per-quarter skill path updates).
+- **0.2.1** — Path resolution fix (`${CLAUDE_PLUGIN_ROOT}` for all skill references).
+- **0.2.0** — Team OS release. Bundled CLAUDE.md + memory/ inside the plugin.
+- **0.1.0** — Initial 9-skill release.
 
 ---
 
